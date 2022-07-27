@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Sansita+Swashed:wght@300&family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+   
+   
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    
+    background-color: hsl(212, 45%, 89%);
+   
+}
+h1 {
+    font-size: 22px;
+      color: hsl(218, 44%, 22%);
+  /* margin: 25px 5.7px 10px; */
+}
+p {
+    font-size: 15px;
+    padding: 0 11px;
+    font-weight: lighter;
+    color: hsl(220, 15%, 55%);
+}
+.box {
+    padding: 16px;
+    border-radius: 18px;
+    text-align: center;
+    width: 319px;
+    height: 495px;
+    background-color: hsl(0, 0%, 100%);
+  
+}
+img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
